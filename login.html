@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title></title>
+</head>
+<body>
+    <!-- Background bubbles -->
+    <div class="bubble" style="width: 40px; height: 40px; left: 10%; animation-delay: 0s;"></div>
+    <div class="bubble" style="width: 60px; height: 60px; left: 20%; animation-delay: 2s;"></div>
+    <div class="bubble" style="width: 30px; height: 30px; left: 35%; animation-delay: 4s;"></div>
+    <div class="bubble" style="width: 50px; height: 50px; left: 50%; animation-delay: 6s;"></div>
+    <div class="bubble" style="width: 25px; height: 25px; left: 70%; animation-delay: 8s;"></div>
+    <div class="bubble" style="width: 80px; height: 80px; left: 80%; animation-delay: 10s;"></div>
+    <div class="bubble" style="width: 35px; height: 35px; left: 90%; animation-delay: 12s;"></div>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form id="signupForm">
+                <h1>Create Brewtika Account</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email to join our coffee community</span>
+                
+                <div class="form-group">
+                    <input type="text" id="signupName" required>
+                    <label for="signupName">Name</label>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="signupEmail" required>
+                    <label for="signupEmail">Email</label>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="password" id="signupPassword" required>
+                        <label for="signupPassword">Password</label>
+                        <i class="fas fa-eye password-toggle" onclick="togglePassword('signupPassword', this)"></i>
+                    </div>
+                    <div class="password-strength">
+                        <div class="strength-meter">
+                            <div class="strength-meter-fill"></div>
+                        </div>
+                        <div class="strength-text"></div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="password" id="confirmPassword" required>
+                        <label for="confirmPassword">Confirm Password</label>
+                        <i class="fas fa-eye password-toggle" onclick="togglePassword('confirmPassword', this)"></i>
+                    </div>
+                    <div class="password-match"></div>
+                </div>
+                
+                <button type="submit" class="btn-submit"><span>Sign Up</span></button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form id="signinForm">
+                <h1>Welcome to Brewtika</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>  
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account to order your favorite brew</span>
+                
+                <div class="form-group">
+                    <input type="email" id="signinEmail" required>
+                    <label for="signinEmail">Email</label>
+                </div>
+                
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="password" id="signinPassword" required>
+                        <label for="signinPassword">Password</label>
+                        <i class="fas fa-eye password-toggle" onclick="togglePassword('signinPassword', this)"></i>
+                    </div>
+                </div>
+                
+                <a href="#">Forgot Your Password?</a>
+                <button type="submit" class="btn-submit"><span>Sign In</span></button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Welcome Back to Brewtika!</h1>
+                    <p>Enter your details to order your favorite coffee and access member rewards</p>
+                    <button class="hidden" id="login">Sign In</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Coffee Lover!</h1>
+                    <p>Register with your personal details to join our coffee community and get your first drink on us!</p>
+                    <button class="hidden" id="register">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
