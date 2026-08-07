@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=divice, initial-scale,0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Coffee Website</title> 
 <!--Linking front awesome for icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
@@ -30,7 +30,7 @@
                 <li class="nav-item"><a href="#testimonials" class="nav-link">Review</a></li>
                 <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-<li class="nav-item"><a href="login.html" class="nav-link">Log-out</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link">Log-out</a></li>
                 <li class="nav-item">
                     <a href="#" class="nav-link cart-icon" id="cart-icon">
                         <i class="ri-shopping-basket-fill"></i>
@@ -43,162 +43,158 @@
     </header>
 
 <main>
-    <!--Hero section-->
+    <!-- ===== HERO SECTION WITH VIDEO BACKGROUND ===== -->
     <section class="hero-section">
-    <div class="section-content">
-    <div class="hero-details">
-    <h2 class="title"> Best Coffee</h2>
-    <h5 class="subtitle">Make your day great with our special coffeee! </h5>
-    <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
-       
-    <div class="buttons">
-<a href="#menu" class="button orde-now">Order Now</a>
-<a href="#contact" class="button contact-us">Contact Us</a>
-    </div>
-    </div>
-    </div>
+        <!-- VIDEO BACKGROUND - NASA HOMEPAGE ITO -->
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="Homepage/BG VIDEO.mp4" type="video/mp4">
+            <source src="your-video-file.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Overlay para gumanda ang text visibility -->
+        <div class="hero-overlay"></div>
+        
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title"> Best Coffee</h2>
+                <h5 class="subtitle">Make your day great with our special coffeee! </h5>
+                <p class="description">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+                <div class="buttons">
+                    <a href="#menu" class="button order-now">Order Now</a>
+                    <a href="#contact" class="button contact-us">Contact Us</a>
+                </div>
+            </div>
+        </div>
     </section>
+
     <!--About Section-->
     <section class="about-section" id="about">
         <div class="section-content">
-        <div class="about-image-wrapper">
-            <img src="Homepage/about.jpg" alt="About" class="about-image">
-        </div>
-        <div class="about-details">
-            <h2 class="section-title">About Us</h2>
-            <p class="text">At COffee in Taguig, we’re more than just
-                 a coffee spot—we’re a community. Built on a love for
-                  great brews and meaningful conversations, our space 
-                  is designed to feel like your second home. Whether you’re 
-                  grabbing your morning cup, catching up with friends,
-                   or simply taking a breather from the day, we’re here to make that moment special
-
-            </p>
-            <div class="social-link-list">
-                <a href="https://web.facebook.com/profile.php?id=100080200207048&mibextid=wwXIfr&rdid=QRSfEsTMTDfgZlEL&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1AEZAcX4YA%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#" class="social-link"><i class="fa-brands
-                    fa-facebook"></i></a>
-                <a href="https://www.instagram.com/hachieeeeeeee/?igsh=MnZ0eHR3cnc2MXRl&fbclid=IwY2xjawKLdQJleHRuA2FlbQIxMABicmlkETFDUmVHVGF6WEFaQnNNUkZ2AR7cT1538OxMVG8hpx1OOoqWlwOK-4d3li9Sy7DJrrKScVtKu0oOs-eQ6_vu0Q_aem_b-pRpkUaAtDZeMVrv2MsHQ#" class="social-link"><i class="fa-brands
-                    fa-instagram"></i></a>
-                 <a href="https://x.com/codpubgm?t=FxFt7puHV8r3UEg8z4PxPQ&s=09&fbclid=IwY2xjawKLdSBleHRuA2FlbQIxMABicmlkETFDUmVHVGF6WEFaQnNNUkZ2AR6x3VADstb1vv3dJg3jEqIOjRGYQPQrA412ed_hWGT9fjOYNe5Neu_85LfhFA_aem_op2KGtYmL38vYQLEMf0Brg" class="social-link"><i class="fa-brands
-                    fa-x-twitter"></i></a>
+            <div class="about-image-wrapper">
+                <img src="Homepage/about.jpg" alt="About" class="about-image">
+            </div>
+            <div class="about-details">
+                <h2 class="section-title">About Us</h2>
+                <p class="text">At Coffee in Taguig, we're more than just a coffee spot—we're a community. Built on a love for great brews and meaningful conversations, our space is designed to feel like your second home. Whether you're grabbing your morning cup, catching up with friends, or simply taking a breather from the day, we're here to make that moment special.</p>
+                <div class="social-link-list">
+                    <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
             </div>
         </div>
-    </div>
     </section>
 
-<!--Menu Section-->
-<!--Menu Section-->
-<section class="menu-section" id="menu">
-    <h2 class="section-title">OUR MENU</h2>
-    <div class="section-content">
-        <ul class="menu-list">
-            <!-- Menu items will be added here -->
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/hot.png" alt="Hot Beverages" class="menu-image">
-                    <h3 class="name">Hot Beverages</h3>
-                    <p class="price">₱165.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Hot Beverages', 'menu/hot beverages.png', 2.99)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Hot Beverages', 'menu/hot beverages.png', 2.99)">Buy Now</button>
+    <!--Menu Section-->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">OUR MENU</h2>
+        <div class="section-content">
+            <ul class="menu-list">
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/hot.png" alt="Hot Beverages" class="menu-image">
+                        <h3 class="name">Hot Beverages</h3>
+                        <p class="price">₱165.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Hot Beverages', 'menu/hot beverages.png', 2.99)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Hot Beverages', 'menu/hot beverages.png', 2.99)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/cold beverages.png" alt="Cold Beverages" class="menu-image">
-                    <h3 class="name">Cold Beverages</h3>
-                    <p class="price">₱185.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Cold Beverages', 'menu/cold beverages.png', 3.49)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Cold Beverages', 'menu/cold beverages.png', 3.49)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/cold beverages.png" alt="Cold Beverages" class="menu-image">
+                        <h3 class="name">Cold Beverages</h3>
+                        <p class="price">₱185.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Cold Beverages', 'menu/cold beverages.png', 3.49)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Cold Beverages', 'menu/cold beverages.png', 3.49)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/Mathca.png" alt="Matcha" class="menu-image">
-                    <h3 class="name">Matcha</h3>
-                    <p class="price">₱185.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Matcha', 'menu/Mathca.png', 4.99)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Matcha', 'menu/Mathca.png', 4.99)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/Mathca.png" alt="Matcha" class="menu-image">
+                        <h3 class="name">Matcha</h3>
+                        <p class="price">₱185.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Matcha', 'menu/Mathca.png', 4.99)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Matcha', 'menu/Mathca.png', 4.99)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/JAVACHIP.png" alt="Java Chip" class="menu-image">
-                    <h3 class="name">Javachip</h3>
-                    <p class="price">₱185.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Javachip', 'menu/JAVACHIP.png', 5.49)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Javachip', 'menu/JAVACHIP.png', 5.49)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/JAVACHIP.png" alt="Java Chip" class="menu-image">
+                        <h3 class="name">Javachip</h3>
+                        <p class="price">₱185.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Javachip', 'menu/JAVACHIP.png', 5.49)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Javachip', 'menu/JAVACHIP.png', 5.49)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/caramel.png" alt="Caramel" class="menu-image">
-                    <h3 class="name">Caramel</h3>
-                    <p class="price">₱185.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Caramel', 'menu/caramel.png', 4.79)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Caramel', 'menu/caramel.png', 4.79)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/caramel.png" alt="Caramel" class="menu-image">
+                        <h3 class="name">Caramel</h3>
+                        <p class="price">₱185.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Caramel', 'menu/caramel.png', 4.79)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Caramel', 'menu/caramel.png', 4.79)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/Refreshment.png" alt="Refreshment" class="menu-image">
-                    <h3 class="name">Refreshment</h3>
-                    <p class="price">₱195.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Refreshment', 'menu/Refreshment.png', 3.99)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Refreshment', 'menu/Refreshment.png', 3.99)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/Refreshment.png" alt="Refreshment" class="menu-image">
+                        <h3 class="name">Refreshment</h3>
+                        <p class="price">₱195.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Refreshment', 'menu/Refreshment.png', 3.99)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Refreshment', 'menu/Refreshment.png', 3.99)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/speacial combo.png" alt="Special Combo" class="menu-image">
-                    <h3 class="name">Special Combo</h3>
-                    <p class="price">₱255.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Special Combo', 'menu/speacial combo.png', 8.99)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Special Combo', 'menu/speacial combo.png', 8.99)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/speacial combo.png" alt="Special Combo" class="menu-image">
+                        <h3 class="name">Special Combo</h3>
+                        <p class="price">₱255.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Special Combo', 'menu/speacial combo.png', 8.99)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Special Combo', 'menu/speacial combo.png', 8.99)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/Desert.png" alt="Dessert" class="menu-image">
-                    <h3 class="name">Dessert</h3>
-                    <p class="price">₱165.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Dessert', 'menu/Desert.png', 3.49)">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Dessert', 'menu/Desert.png', 3.49)">Buy Now</button>
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/Desert.png" alt="Dessert" class="menu-image">
+                        <h3 class="name">Dessert</h3>
+                        <p class="price">₱165.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Dessert', 'menu/Desert.png', 3.49)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Dessert', 'menu/Desert.png', 3.49)">Buy Now</button>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li class="menu-item">
-                <div class="menu-card">
-                    <img src="menu/Burger.png" alt="Burger" class="menu-image">
-                    <h3 class="name">Fries/Burger</h3>
-                    <p class="price">₱85.00</p>
-                    <div class="button-group">
-                        <button class="add-to-cart" onclick="addToCart('Hot Beverages', 'menu/hot.png')">Add to Cart</button>
-                        <button class="buy-now" onclick="buyNow('Hot Beverages', 'menu/hot.png')">Buy Now</button>                        
+                </li>
+                <li class="menu-item">
+                    <div class="menu-card">
+                        <img src="menu/Burger.png" alt="Burger" class="menu-image">
+                        <h3 class="name">Fries/Burger</h3>
+                        <p class="price">₱85.00</p>
+                        <div class="button-group">
+                            <button class="add-to-cart" onclick="addToCart('Fries/Burger', 'menu/Burger.png', 1.99)">Add to Cart</button>
+                            <button class="buy-now" onclick="buyNow('Fries/Burger', 'menu/Burger.png', 1.99)">Buy Now</button>                        
+                        </div>
                     </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-</section>  	
+                </li>
+            </ul>
+        </div>
+    </section>  	
         
-        <!-- Notification container -->
-        <div class="notification-container" id="notificationContainer"></div>
-    </section>
+    <!-- Notification container -->
+    <div class="notification-container" id="notificationContainer"></div>
 
     <div class="cart-panel" id="cart-panel">
         <div class="cart-header">
@@ -220,138 +216,131 @@
     <!-- Overlay -->
     <div class="overlay" id="overlay"></div>
 
-<!-- Notification container -->
-<div class="notification-container" id="notification-container"></div>
-
     <!--Review-->
     <section class="testimonials-section" id="testimonials">
-        <h2 class=" section-title">Review</h2>
+        <h2 class="section-title">Review</h2>
         <div class="section-content">
-         <div class="slider-container swiper">
-            <div class="slider-wrapper">
-            <ul class="testimonials-list swiper-wrapper">
-            <li class="testimonial swiper-slide">
-            <img src="user/RIVERA.jpg" alt="User" class="user-image">
-            <h3 class="name">Rivera, Ryan Jay</h3>
-            <i class="feedback">"The coffee here hits different! Perfect balance of strong and smooth—my go-to for late-night study sessions."</i>
-            </li>
-            <li class="testimonial swiper-slide">
-            <img src="user/Bandong.jpg" alt="User" class="user-image">
-            <h3 class="name">Bandong, Jhezter Lee</h3>
-            <i class="feedback">Timplang Taglamig saved me from this heatwave! Iced coffee + sweet cream = instant mood booster.  </i>
-            </li>
-            <li class="testimonial swiper-slide">
-             <img src="user/Sunga.jpg" alt="User" class="user-image">
-             <h3 class="name">Sunga, Haji</h3>
-             <i class="feedback">Lamig-Lamig Hits? More like *Ulamig-Ulamig Sarap*! Grabe, ang refreshing—parang mini-vacation in a cup. </i>
-            </li>
-            <li class="testimonial swiper-slide">
-            <img src="user/pineda.jpg" alt="User" class="user-image">
-            <h3 class="name">Pineda, Thristan</h3>
-            <i class="feedback">"Yung combo nila: burger + fries + iced coffee for ₱150? Sulit na sulit. Binabalik-balikan talaga! </i>
-            </li>
-            <li class="testimonial swiper-slide">
-            <img src="user/YUDICO.jpg" alt="User" class="user-image">
-            <h3 class="name">Yudico, Leni</h3>
-            <i class="feedback">Dessert coffee nila is *chef’s kiss*. Sweet pero hindi nakakaumay—parang hug in a mug!  </i>
-            </li>
-            <li class="testimonial swiper-slide">
-            <img src="user/rio.jpg" alt="User" class="user-image">
-            <h3 class="name">Rio, John Rich</h3>
-            <i class="feedback">"Fries nila crispy lagi, tapos yung burger juicy? Lagi kong dinadala friends ko dito!"  </i>
-            </li>
-            </ul>
-            <div class="swiper-slide-button swiper-pagination"></div>
-            <div class="swiper-slide-button swiper-button-prev"></div>
-            <div class="swiper-slide-button swiper-button-next"></div>
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <li class="testimonial swiper-slide">
+                            <img src="user/RIVERA.jpg" alt="User" class="user-image">
+                            <h3 class="name">Rivera, Ryan Jay</h3>
+                            <i class="feedback">"The coffee here hits different! Perfect balance of strong and smooth—my go-to for late-night study sessions."</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user/Bandong.jpg" alt="User" class="user-image">
+                            <h3 class="name">Bandong, Jhezter Lee</h3>
+                            <i class="feedback">Timplang Taglamig saved me from this heatwave! Iced coffee + sweet cream = instant mood booster.</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user/Sunga.jpg" alt="User" class="user-image">
+                            <h3 class="name">Sunga, Haji</h3>
+                            <i class="feedback">Lamig-Lamig Hits? More like *Ulamig-Ulamig Sarap*! Grabe, ang refreshing—parang mini-vacation in a cup.</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user/pineda.jpg" alt="User" class="user-image">
+                            <h3 class="name">Pineda, Thristan</h3>
+                            <i class="feedback">"Yung combo nila: burger + fries + iced coffee for ₱150? Sulit na sulit. Binabalik-balikan talaga!</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user/YUDICO.jpg" alt="User" class="user-image">
+                            <h3 class="name">Yudico, Leni</h3>
+                            <i class="feedback">Dessert coffee nila is *chef's kiss*. Sweet pero hindi nakakaumay—parang hug in a mug!</i>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="user/rio.jpg" alt="User" class="user-image">
+                            <h3 class="name">Rio, John Rich</h3>
+                            <i class="feedback">"Fries nila crispy lagi, tapos yung burger juicy? Lagi kong dinadala friends ko dito!"</i>
+                        </li>
+                    </ul>
+                    <div class="swiper-slide-button swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
             </div>
-         </div>
         </div>
     </section>
   
     <!--Gallery-->
-  <section class="gallery-section" id="gallery">
-    <h2 class="section-title">Gallery</h2>
-    <div class="section-content">
-        <ul class="gallery-list">
-            <li class="gallery-item">
-                <img src="Gallery/Galley 1.jpg" alt="Gallery Image 1" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-                <img src="Gallery/Galley 2.jpg" alt="Gallery Image 2" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-                <img src="Gallery/Galley 0.jpeg" alt="Gallery Image 3" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-                <img src="Gallery/Galley 00.jpg" alt="Gallery Image 4" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-                <img src="Gallery/Galley 6.webp" alt="Gallery Image 5" class="gallery-image">
-            </li>
-            <li class="gallery-item">
-                <img src="Gallery/Galley 5.jpg" alt="Gallery Image 6" class="gallery-image">
-            </li>
-        </ul>
-    </div>
-</section>
+    <section class="gallery-section" id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="section-content">
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 1.jpg" alt="Gallery Image 1" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 2.jpg" alt="Gallery Image 2" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 0.jpeg" alt="Gallery Image 3" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 00.jpg" alt="Gallery Image 4" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 6.webp" alt="Gallery Image 5" class="gallery-image">
+                </li>
+                <li class="gallery-item">
+                    <img src="Gallery/Galley 5.jpg" alt="Gallery Image 6" class="gallery-image">
+                </li>
+            </ul>
+        </div>
+    </section>
 
     <!--contact section-->
     <section class="contact-section" id="contact">
         <h2 class="section-title">CONTACT US</h2>
         <div class="section-content">
-          <ul class="contact-info-list">
-            <li class="contact-info">
-              <i class="fa-solid fa-location-dot"></i>
-              <p>123 Coffee Shop Taguig City Lower Bicutan</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-envelope"></i>
-              <p>Brewtika@gmail.com</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-phone"></i>
-              <p>(123) 456-78909</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-clock"></i>
-              <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-clock"></i>
-              <p>Saturday: 10:00 AM - 3:00 PM</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-clock"></i>
-              <p>Sunday: Closed</p>
-            </li>
-            <li class="contact-info">
-              <i class="fa-solid fa-globe"></i>
-              <p>www.Brewtikaweb.com</p>
-            </li>
-          </ul>
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>123 Coffee Shop Taguig City Lower Bicutan</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Brewtika@gmail.com</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>(123) 456-78909</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Saturday: 10:00 AM - 3:00 PM</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>Sunday: Closed</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>www.Brewtikaweb.com</p>
+                </li>
+            </ul>
       
-          <form action="#" class="contact-form">
-            <input type="text" placeholder="Your name" class="form-input" required>
-            <input type="email" placeholder="Your email" class="form-input" required>
-            <textarea placeholder="Your message" class="form-input" required></textarea>
-            <button class="submit-button">Submit</button>
-          </form>
+            <form action="#" class="contact-form">
+                <input type="text" placeholder="Your name" class="form-input" required>
+                <input type="email" placeholder="Your email" class="form-input" required>
+                <textarea placeholder="Your message" class="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
         </div>
-      </section>
+    </section>
 
-      <!--Footer section-->
-      <footer class="footer-section">
+    <!--Footer section-->
+    <footer class="footer-section">
         <div class="section-content">
             <p class="copyright-text">@ 2025 Brewtika Shop</p>
-
             <div class="social-link-list">
-                <a href="https://web.facebook.com/profile.php?id=100080200207048&mibextid=wwXIfr&rdid=QRSfEsTMTDfgZlEL&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1AEZAcX4YA%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr#" class="social-link"><i class="fa-brands
-                    fa-facebook"></i></a>
-                <a href="https://www.instagram.com/hachieeeeeeee/?igsh=MnZ0eHR3cnc2MXRl&fbclid=IwY2xjawKLdQJleHRuA2FlbQIxMABicmlkETFDUmVHVGF6WEFaQnNNUkZ2AR7cT1538OxMVG8hpx1OOoqWlwOK-4d3li9Sy7DJrrKScVtKu0oOs-eQ6_vu0Q_aem_b-pRpkUaAtDZeMVrv2MsHQ#" class="social-link"><i class="fa-brands
-                    fa-instagram"></i></a>
-                 <a href="https://x.com/codpubgm?t=FxFt7puHV8r3UEg8z4PxPQ&s=09&fbclid=IwY2xjawKLdSBleHRuA2FlbQIxMABicmlkETFDUmVHVGF6WEFaQnNNUkZ2AR6x3VADstb1vv3dJg3jEqIOjRGYQPQrA412ed_hWGT9fjOYNe5Neu_85LfhFA_aem_op2KGtYmL38vYQLEMf0Brg" class="social-link"><i class="fa-brands
-                    fa-x-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
             <p class="policy-text">
                 <a href="#" class="policy-link">Privacy policy</a>
@@ -359,11 +348,11 @@
                 <a href="#" class="policy-link">Refund policy</a>
             </p>
         </div>
-      </footer>
+    </footer>
 </main>
-<!-- Linking Swiper Scipt-->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+<!-- Linking Swiper Script-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="homepage.js"></script>
 </body>
 </html>
